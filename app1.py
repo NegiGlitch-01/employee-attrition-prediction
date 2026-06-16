@@ -40,7 +40,7 @@ h1 {
 """, unsafe_allow_html=True)
 
 # Load Model
-with open("fraud_model.pkl", "rb") as f:
+with open("attrition_model.pkl", "rb") as f:
     model = pickle.load(f)
 
 # Title
