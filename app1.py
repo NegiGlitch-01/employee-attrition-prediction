@@ -40,7 +40,9 @@ h1 {
 """, unsafe_allow_html=True)
 
 # Load Model
-model = joblib.load("attrition_model.pkl")
+import pickle
+
+with open("attrition_model.pkl", "rb") as f:
     model = pickle.load(f)
 
 # Title
