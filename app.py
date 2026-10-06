@@ -472,7 +472,7 @@ st.markdown("""
 <div style="
 text-align:center;
 padding:20px;
-background:#F1F5F9;
+background:#1e293b;
 border-radius:10px;
 ">
 
